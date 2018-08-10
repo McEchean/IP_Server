@@ -95,7 +95,7 @@ class GetIP(object):
     def test_ip_and_get(self):
         self._get_ip_list()
         ips_active = []
-        for i in range(0, len(self.IPS)):
+        for i in range(0, len(self.IPS)-290):
             import time
             time.sleep(1)
             if float(self.IPS[i]['speed']) > 1 or float(self.IPS[i]['conn_time']) > 1 or float(self.IPS[i][
@@ -111,19 +111,19 @@ class GetIP(object):
         #     f.writelines(ips_active)
         return ips_active
 
-    def test_ip_and_delect(self, ip_list):
-        ips_active = []
-        for i in range(0, len(ip_list)):
-            import time
-            time.sleep(1)
-            print('test ip {0}'.format(i) + ': ' + self.IPS[i]['ip_addr'] + ':' + self.IPS[i]['ip_port'])
-            result = self.test_ip(ip_list[i]['ip_addr'], ip_list[i]['ip_port'], ip_list[i]['http_type'].lower(), 60)
-            if result:
-                continue
-            else:
-                del_sql = 'delect from ip_table where ip_addr="{0}" and ip_port="{1}" and http_type="{2}"'.format(
-                    ip_list[i]['ip_addr'], ip_list[i]['ip_port'], ip_list[i]['http_type'])
-                mysql.delete(del_sql)
+    # def test_ip_and_delect(self, ip_list):
+    #     ips_active = []
+    #     for i in range(0, len(ip_list)):
+    #         import time
+    #         time.sleep(1)
+    #         print('test ip {0}'.format(i) + ': ' + self.IPS[i]['ip_addr'] + ':' + self.IPS[i]['ip_port'])
+    #         result = self.test_ip(ip_list[i]['ip_addr'], ip_list[i]['ip_port'], ip_list[i]['http_type'].lower(), 60)
+    #         if result:
+    #             continue
+    #         else:
+    #             del_sql = 'delect from ip_table where ip_addr="{0}" and ip_port="{1}" and http_type="{2}"'.format(
+    #                 ip_list[i]['ip_addr'], ip_list[i]['ip_port'], ip_list[i]['http_type'])
+    #             mysql.delete(del_sql)
 
 if __name__ == "__main__":
     ip = GetIP()
@@ -144,8 +144,8 @@ if __name__ == "__main__":
                         , j['alive_time'], j['validate_time'])
             result = mysql.insert(insert_sql)
 
-    time.sleep(1000)
-    sqlAll = "select * from ip_table;"
-    result = mysql.getAll(sqlAll)
-    ip.test_ip_and_delect(result)
+    # time.sleep(1000)
+    # sqlAll = "select * from ip_table;"
+    # result = mysql.getAll(sqlAll)
+    # ip.test_ip_and_delect(result)
     mysql.dispose()

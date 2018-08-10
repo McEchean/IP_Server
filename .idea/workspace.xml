@@ -2,15 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5a24dda5-1228-436e-b7bb-ed3259b328dc" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/Proxy.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysql/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysql/myProjectConfig.cnf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysql/mysqldb.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_ip.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xici_proxy_spider.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysql/myProjectConfig.cnf" beforeDir="false" afterPath="$PROJECT_DIR$/mysql/myProjectConfig.cnf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_ip.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xici_proxy_spider.py" beforeDir="false" afterPath="$PROJECT_DIR$/xici_proxy_spider.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -20,7 +16,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/Proxy$xici_proxy_spider.coverage" NAME="xici_proxy_spider Coverage Results" MODIFIED="1533745402558" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Proxy$xici_proxy_spider.coverage" NAME="xici_proxy_spider Coverage Results" MODIFIED="1533871400940" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Proxy$mysqldb.coverage" NAME="mysqldb Coverage Results" MODIFIED="1533746190903" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mysql" />
   </component>
   <component name="FileEditorManager">
@@ -28,8 +24,12 @@
       <file leaf-file-name="xici_proxy_spider.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/xici_proxy_spider.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="24" column="57" selection-start-line="24" selection-start-column="57" selection-end-line="24" selection-end-column="57" />
+            <state relative-caret-position="269">
+              <caret line="147" column="29" lean-forward="true" selection-start-line="147" selection-start-column="29" selection-end-line="147" selection-end-column="29" />
+              <folding>
+                <element signature="e#107#118#0" expanded="true" />
+                <element signature="e#5387#5427#0" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -37,8 +37,8 @@
       <file leaf-file-name="myProjectConfig.cnf" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mysql/myProjectConfig.cnf">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
-              <caret line="4" column="16" lean-forward="true" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+            <state relative-caret-position="105">
+              <caret line="5" column="19" lean-forward="true" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -46,11 +46,20 @@
       <file leaf-file-name="mysqldb.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mysql/mysqldb.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1915">
-              <caret line="211" lean-forward="true" selection-start-line="211" selection-end-line="211" />
+            <state relative-caret-position="248">
+              <caret line="68" column="13" selection-start-line="68" selection-start-column="13" selection-end-line="68" selection-end-column="13" />
               <folding>
                 <element signature="e#105#124#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SteadyDB.py" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/DBUtils/SteadyDB.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="185">
+              <caret line="696" selection-start-line="696" selection-end-line="696" />
             </state>
           </provider>
         </entry>
@@ -73,9 +82,9 @@
         <option value="$PROJECT_DIR$/database.py" />
         <option value="$PROJECT_DIR$/active_ips.txt" />
         <option value="$PROJECT_DIR$/test_ip.py" />
-        <option value="$PROJECT_DIR$/xici_proxy_spider.py" />
-        <option value="$PROJECT_DIR$/mysql/myProjectConfig.cnf" />
         <option value="$PROJECT_DIR$/mysql/mysqldb.py" />
+        <option value="$PROJECT_DIR$/mysql/myProjectConfig.cnf" />
+        <option value="$PROJECT_DIR$/xici_proxy_spider.py" />
       </list>
     </option>
   </component>
@@ -131,7 +140,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.mysqldb">
+  <component name="RunManager" selected="Python.xici_proxy_spider">
     <configuration name="mysqldb" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Proxy" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -176,8 +185,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.mysqldb" />
         <item itemvalue="Python.xici_proxy_spider" />
+        <item itemvalue="Python.mysqldb" />
       </list>
     </recent_temporary>
   </component>
@@ -192,6 +201,14 @@
       <option name="presentableId" value="Default" />
       <updated>1533734511559</updated>
     </task>
+    <task id="LOCAL-00001" summary="ip">
+      <created>1533773801845</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1533773801845</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -202,16 +219,16 @@
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32768363" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32673267" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23190348" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23190348" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32909605" />
       <window_info anchor="right" id="SciView" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4081921" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.407355" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -226,9 +243,13 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="ip" />
+    <option name="LAST_COMMIT_MESSAGE" value="ip" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="14" />
+      <option name="time" value="16" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -236,6 +257,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2562">
           <caret line="130" selection-start-line="130" selection-end-line="130" />
+          <folding>
+            <element signature="e#107#118#0" expanded="true" />
+            <element signature="e#5387#5427#0" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -271,22 +296,12 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/database.py" />
-    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/DBUtils/SteadyDB.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="443">
-          <caret line="604" selection-start-line="604" selection-end-line="604" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/pymysql/err.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="468">
           <caret line="105" column="9" selection-start-line="105" selection-start-column="9" selection-end-line="105" selection-end-column="9" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_ip.py">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/active_ips.txt">
       <provider selected="true" editor-type-id="text-editor">
@@ -295,27 +310,41 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/test_ip.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/DBUtils/SteadyDB.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="696" selection-start-line="696" selection-end-line="696" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mysql/myProjectConfig.cnf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" column="19" lean-forward="true" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/mysql/mysqldb.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1915">
-          <caret line="211" lean-forward="true" selection-start-line="211" selection-end-line="211" />
+        <state relative-caret-position="248">
+          <caret line="68" column="13" selection-start-line="68" selection-start-column="13" selection-end-line="68" selection-end-column="13" />
           <folding>
             <element signature="e#105#124#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mysql/myProjectConfig.cnf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="4" column="16" lean-forward="true" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/xici_proxy_spider.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="24" column="57" selection-start-line="24" selection-start-column="57" selection-end-line="24" selection-end-column="57" />
+        <state relative-caret-position="269">
+          <caret line="147" column="29" lean-forward="true" selection-start-line="147" selection-start-column="29" selection-end-line="147" selection-end-column="29" />
+          <folding>
+            <element signature="e#107#118#0" expanded="true" />
+            <element signature="e#5387#5427#0" />
+          </folding>
         </state>
       </provider>
     </entry>
